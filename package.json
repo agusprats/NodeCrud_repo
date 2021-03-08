@@ -1,0 +1,24 @@
+{
+  "name": "NodeCrud_repo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusprats/NodeCrud_repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusprats/NodeCrud_repo/issues"
+  },
+  "homepage": "https://github.com/agusprats/NodeCrud_repo#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.0.0"
+  }
+}
