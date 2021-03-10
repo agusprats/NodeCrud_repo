@@ -7,18 +7,13 @@ const saveData = (data) => {
 }
 
 const getData = () => {
-    
-    if( !fs.existsSync(name)) {
-        return null;
-    }
-
-    const data = fs.readFileSync(name, {encoding: 'utf8'});
-
-    if(data){
-        return JSON.parse(data);
-    }
+    if (fs.existsSync(name)) {  
+        const data = fs.readFileSync(name, {encoding: 'utf8'});
+        if (data) {
+            return JSON.parse(data);
+        }        
+    }   
     return null;
-
 }
 
 module.exports = {
